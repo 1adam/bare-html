@@ -1,0 +1,24 @@
+---
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html
+#hooks:
+#    BeforeInstall:
+#        - location: path/to/script/to/run.sh
+#          timeout: 300
+#          runas: root
+#    AfterInstall:
+#        - location: path/to/script/to/run.sh
+#          timeout: 300
+#          runas: root
+#    ApplicationStart:
+#        - location: path/to/script/to/run.sh
+#          timeout: 300
+#          runas: root
+#        - location: path/to/test_something.sh
+#    ApplicationStop:
+#        - location: path/to/script/to/run.sh
+#          timeout: 300
+#          runas: root
