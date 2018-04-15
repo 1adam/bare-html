@@ -1,0 +1,4 @@
+---
+appEnv: prod
+setting: yes
+database: proddb01

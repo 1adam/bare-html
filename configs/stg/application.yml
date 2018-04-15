@@ -1,0 +1,4 @@
+---
+appEnv: stg
+setting: yes
+database: stgdb01
