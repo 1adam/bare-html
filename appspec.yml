@@ -4,12 +4,12 @@ files:
   - source: /html
     destination: /var/www/html
   - source: /configs
-    destination: /tmp/application/configs
+    destination: /tmp/configs
 hooks:
   BeforeInstall:
     - location: scripts/clearVarWWW.sh
-    - location: scripts/prepConfigs.sh
   AfterInstall:
+    - location: scripts/prepConfigs.sh
     - location: scripts/runResourceTest.sh
       timeout: 30
   ApplicationStart:
